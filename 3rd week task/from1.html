@@ -1,0 +1,80 @@
+<!doctype html>
+<html>
+<head>
+    <style>
+        .left{
+            margin-left: 10px;
+        }
+        .center{
+            margin-left: 10px;
+            margin-right: 10px;
+            width: 1000px;
+        }
+        div{ 
+            background-color: antiquewhite;
+            margin-top: 80px;
+            margin-left: 80px;
+            margin-right: 80px;
+            border: 3px solid aquamarine;
+            padding: 10px;
+           
+        }
+        h1{
+            text-align: center;
+            color: rgb(2, 8, 65);
+            text-size-adjust: 30px;
+        }
+    </style>
+
+</head>
+<body style="background-color: aqua;">
+    <div>
+    
+        <h1>Software Request</h1>
+        <form>
+            <label for="name" class="left">Name<span style="color: red;">*</span></label><br>
+            <br>
+            <input type="text" name="Name" class="center" required></input><br>
+            <br>
+            <label for="Employee ID" class="left">Employee ID<span style="color: red;">*</span></label><br>
+            <br>
+            <input type="text" name="Employee ID" class="center" required></input><br>
+            <br>
+            <label for="Email" class="left">Email<span style="color: red;">*</span></label><br>
+            <br>
+            <input type="email" name="Email" class="center" required></input><br>
+            <br>
+            <label for="Mobile No/Extn No" class="left">Mobile NO/Extn No</label><br>
+            <br>
+            <input type="text" name="Mobile No/Extn No" class="center" required></input><br>
+            <br>
+            <label for="which software so you required" class="left">Which software do you required?<span style="color: red;">*</span></label><br>
+            <br>
+            
+            <input type="checkbox" id="Software A" name="Software A">
+            <label for="subscribe">Software A</label><br>
+            <br>
+            <input type="checkbox" id="software B" name="Software B">
+            <label for="subscribe">Software B</label><br>
+            <br>
+            <input type="checkbox" id="software C" name="Software c">
+            <label for="subscribe">Software C</label><br>
+            <br>
+            <label for="How urgently do you need it" class="left">How urgently do you need it?<span style="color: red;">*</span></label><br>
+            <br>
+            <input type="radio" id="As soon as possible" name="time" value="As soon as possible">
+            <label for="As soon as possible">As soon as possible</label><br>
+            <br>
+            <input type="radio" id="Within 2 to 3 weeks" name="time" value="Within 2 to 3 weeks">
+            <label for="Within 2 to 3 weeks">Within 2 to 3 weeks</label><br>
+            <br>   
+            <input type="radio" id="I am in no hurry" name="time" value="I am in no hurry">
+            <label for="I am in no hurry">I am in no hurry</label><br>
+            <br>
+            <input type="submit" value="Request" style="margin-left: 150px; width: 800px;color:antiquewhite;background-color: rgb(0, 0, 39);">
+        </form>
+        
+    </div>
+
+</body>
+</html>
